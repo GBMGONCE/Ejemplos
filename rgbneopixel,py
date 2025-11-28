@@ -1,0 +1,12 @@
+import machine
+import time
+import neopixel
+
+PIN = 4
+NUN_PIX = 3
+np = neopixel.NeoPixel (machine.Pin(PIN), 3)
+np[0] = (255, 255, 255)
+np(1) = (0, 255, 0)
+np[2] = (1, 1, 1)
+np.write()
+

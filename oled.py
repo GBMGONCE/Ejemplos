@@ -8,6 +8,7 @@ print("Dispositivos I2C enocntrados:", i2c.scan())
 ancho = 128
 alto = 64
 aled = SSD1306_I2C(ancho, alto, i2c)
+
 oled.fill(0)
 oled.text("Mocosos feos", 0, 0)
 oled.text(":3", 0, 16)
